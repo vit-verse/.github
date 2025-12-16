@@ -17,21 +17,57 @@ This organization hosts all official repositories related to **VIT Verse (VIT Co
 
 ## 🧩 What We Build
 
-### 📱 Mobile Applications
-- **VIT Verse / VIT Connect** (Flutter)
-- Academic utilities, calendars, and reminders
-- Student-focused features such as cab sharing, lost & found, and notifications
-- Performance-first architecture with clean code practices
+### 📱 VIT Verse Mobile App (Flutter)
+A full-featured Flutter application tightly integrated with **VTOP**, designed to give students meaningful insights and essential campus utilities.
 
-### 🔔 Backend Services
-- Firebase Cloud Functions
+**Key capabilities:**
+- VTOP integration with detailed academic analytics
+- Attendance, timetable, and academic insights
+- Campus utilities such as **Lost & Found** and **Cab Sharing**
+- Event announcements and updates
+- System-level and in-app notifications for all users
+- Performance-focused architecture with scalable design
+- Continuous feature expansion driven by student needs
+
+---
+
+### 🧩 Im Lazy Extension (Under Development)
+A productivity-focused browser extension aimed at significantly reducing friction and delays in VTOP-related workflows.
+
+**Core features (working & in progress):**
+- Auto-login for **VTOP**, **VTOP Registration**, and **LMS**
+- Bypass artificial delays in FFCS
+- Show slot clashes directly on the FFCS registration page
+- Reduce login-to-registration flow from minutes to ~4–5 seconds
+- CAPTCHA auto-fill for FFCS and VTOP (where applicable)
+- Inject faculty ratings directly into FFCS and VTOP
+- Sort faculties based on rating, preference, or relevance
+- Highlight preferred faculties, slots, or keywords for faster decisions
+- Automatically fetch VTOP academic calendar data and raise PRs to the **VIT Academic Calendar** repository used by the VIT Verse app
+
+This extension is actively evolving with more automation and productivity features planned.
+
+---
+
+### 🔔 Backend Services (Firebase Functions)
+Server-side logic to support real-time communication and notifications.
+
+**Responsibilities include:**
 - Topic-based FCM notifications
-- Secure, minimal, and scalable backend design
+- Notify all users when new **Cab Share** or **Lost & Found** items are posted
+- Respect user subscription and notification preferences
+- Secure and minimal cloud-function architecture
 
-### 🌐 Web & Utilities
-- Landing pages and supporting websites
-- Academic calendar data
-- Browser extensions and lightweight productivity tools
+---
+
+### 🌐 Web Platforms
+Supporting web infrastructure for accessibility and distribution.
+
+**Includes:**
+- Official website for downloading the VIT Verse application
+- Informational pages and supporting web utilities
+- Lightweight, fast, and easy-to-maintain setup
+
 
 ---
 
